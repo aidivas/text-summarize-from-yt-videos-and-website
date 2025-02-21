@@ -15,7 +15,7 @@ groq_api_key = get_groq_api_key()
 generic_url = get_url_input()
 
 # LLM model and prompt setup
-llm = ChatGroq(model="Gemma-7b-It", groq_api_key=groq_api_key)
+llm = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key=groq_api_key)
 prompt_template = """ 
 Provide a summary of the following content in 300 words:
 Content: {text}
