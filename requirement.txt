@@ -2,3 +2,10 @@ mysql-connector-python
 SQLAlchemy
 validators==0.28.1
 youtube_transcript_api
+unstructured
+pytube
+streamlit
+langchain
+langchain_community
+youtube-transcript-api
+validators
